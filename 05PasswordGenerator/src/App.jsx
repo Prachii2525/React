@@ -20,6 +20,14 @@ function App() {
       const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
       const digitChars = '0123456789';
       const specialChars = '!@#$%^&*()_+';
+
+      const generatePasswordString = (passwordLength: number) => {
+        let characterList = '';
+    
+        const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
+        const digitChars = '0123456789';
+        const specialChars = '!@#$%^&*()_+';
   
 
   return (
@@ -30,6 +38,7 @@ function App() {
     </>
 
   )
+}
 }
 
 export default App
